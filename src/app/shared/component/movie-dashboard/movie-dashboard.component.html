@@ -1,9 +1,9 @@
+<img src="./assets/logom.jpg" alt="" />
+
 <div class="container-fluid mt-4">
-    <div class="row">
-        <div class="col-md-4 mb-4" *ngFor="let movieObj of movieArr">
-            <app-movie-card
-            [movie]="movieObj"
-            ></app-movie-card>
-        </div>
+  <div class="row">
+    <div class="col-md-3 mb-4" *ngFor="let movieObj of movieArr">
+      <app-movie-card [movie]="movieObj"></app-movie-card>
     </div>
+  </div>
 </div>

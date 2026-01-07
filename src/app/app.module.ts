@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MovieDashboardComponent } from './shared/component/movie-dashboard/movie-dashboard.component';
 import { MovieCardComponent } from './shared/component/movie-card/movie-card.component';
+import { MovieTwoComponent } from './movie-two/movie-two.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MovieDashboardComponent,
-    MovieCardComponent
+    MovieCardComponent,
+    MovieTwoComponent
   ],
   imports: [
     BrowserModule,
